@@ -2,7 +2,7 @@
 
 Audio biometrics tool that determines whether two voice recordings belong to the same person, using **MFCC cosine distance** and spectral feature analysis.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DaniAngel79/voice-similarity-checker/blob/main/voice_similarity_checker.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dar47-socrecon/voice-similarity-checker/blob/main/voice_similarity_checker.ipynb)
 [![HuggingFace Space](https://img.shields.io/badge/🤗%20HuggingFace-Space-yellow)](https://huggingface.co/spaces/DaniAngel79/voice-similarity-checker)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![Librosa](https://img.shields.io/badge/librosa-0.10%2B-green)
@@ -65,7 +65,7 @@ Threshold calibrated empirically. Adjust in `determine_similarity()` for your us
 
 ## Local setup
 ```bash
-git clone git@github.com:DaniAngel79/voice-similarity-checker.git
+git clone git@github.com:dar47-socrecon/voice-similarity-checker.git
 cd voice-similarity-checker
 pip install -r requirements.txt
 jupyter notebook voice_similarity_checker.ipynb
